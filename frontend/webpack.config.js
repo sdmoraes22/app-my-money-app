@@ -15,7 +15,7 @@ module.exports = {
         extensions: ['', '.js', '.jsx'],
         alias: {
             modules: __dirname + '/node_modules',
-            jquery: 'modules/admin-lte/plugins/JQuery/jquery-2.2.3.min.js',
+            jquery: 'modules/admin-lte/plugins/jQuery/jquery-2.2.3.min.js',
             bootstrap: 'modules/admin-lte/plugins/bootstrap/js/bootstrap.js'
         }
     },
