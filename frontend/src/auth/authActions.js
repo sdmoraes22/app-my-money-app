@@ -1,4 +1,4 @@
-import { toasr } from 'react-redux-toastr'
+import { toastr } from 'react-redux-toastr'
 import axios from 'axios'
 import consts from '../consts'
 
@@ -20,7 +20,7 @@ function submit(values, url) {
             })
             .catch(e => {
                 e.response.data.errors.forEach(
-                    error => toasr.error('Erro', error))
+                    error => toastr.error('Erro', error))
             })
     }
 }
